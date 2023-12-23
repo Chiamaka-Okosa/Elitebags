@@ -1,0 +1,18 @@
+ul{
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+li a{
+    text-decoration: none;
+}
+
+li a:hover{
+    color: lightskyblue;
+    font-weight: bold;
+    background-color: palevioletred;
+    padding: 5px;
+    border-radius: 8px; /*Curved border*/
+}
