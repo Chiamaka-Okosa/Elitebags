@@ -31,3 +31,17 @@ npm start
 All commands can be found in the `scripts` section of the `package.json` file, as shown int he screenshot below:
 
 ![Scripts Section of pacage.json file](Scripts-Screenshot.png)
+
+
+## To pull the most recent changes 
+You run the below command to pull the latest changes:
+```
+git pull <name-of-repository-url> <branchName>
+```
+
+Example: `git pull origin main`
+
+## To view remote repository attached to your code:
+```
+git remote -v
+```
