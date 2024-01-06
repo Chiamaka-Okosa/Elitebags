@@ -6,7 +6,7 @@ const Contact = () => {
   const sendEmail = () => {};
   return (
   <section id="sectionBody" style={{display:'flex',gap:'10px', justifyContent:'space-between', padding:'15px'}}>
-    <div ClassName="container">
+    <div className="container">
       <h2 style={{color:'blue',textDecoration:'underline'}}>Contact Us</h2>
       <form ref={form} onSubmit={sendEmail}
       className="--form-control--card --flex-center --dir-column">
